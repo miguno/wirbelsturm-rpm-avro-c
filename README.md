@@ -1,6 +1,6 @@
 # wirbelsturm-rpm-avro-c
 
-Builds an RPM based on an official [Apache Avro](http://avro.apache.org) release, using
+Builds an RPM based on an official [avro-c](http://avro.apache.org) release, using
 [fpm](https://github.com/jordansissel/fpm).
 
 Unfortunately the official Avro project does not release ready-to-use RPM packages.  The RPM

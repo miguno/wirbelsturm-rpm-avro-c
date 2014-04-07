@@ -60,6 +60,7 @@ cd $BUILD_DIR/installdir
 fpm -s dir -t rpm -a all \
     -n avro-c \
     -v $VERSION \
+    --iteration "1.miguno" \
     --maintainer "$MAINTAINER" \
     --vendor "Apache Avro Project" \
     --url http://avro.apache.org \
